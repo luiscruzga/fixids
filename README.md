@@ -15,3 +15,4 @@ npm i -g fixids
 
 Once the module is installed, from the project folder you want to "fix", you must execute the command: fixids, it will automatically request two parameters per screen: the directory to fix and the length of the ids to generate
 
+![WABOT](https://github.com/luiscruzga/fixids/fixids.png)
