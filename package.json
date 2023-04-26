@@ -1,0 +1,50 @@
+{
+  "name": "fix-ids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "fixids": "bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "start": "npx tsx ./src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "ora": "^6.3.0",
+    "path": "^0.12.7",
+    "prompt-sync": "^4.2.0",
+    "randomstring": "^1.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "typescript": "^5.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscruzga/fixids.git"
+  },
+  "keywords": [
+    "fixids",
+    "fixid",
+    "fix ids",
+    "fix id",
+    "fix html",
+    "html fix"
+  ],
+  "author": "Luis Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscruzga/fixids/issues"
+  },
+  "homepage": "https://github.com/luiscruzga/fixids#readme"
+}
